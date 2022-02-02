@@ -1,0 +1,48 @@
+/* NISTA Custom CSS */
+.NISTA,
+.NISTA-bg,
+.NISTA-background{
+	background-color: #0CB2A3 !important;
+}
+.NISTA-color{
+	color: #0CB2A3 !important;
+}
+.NISTA-button{
+	background-color: #0CB2A3 !important;
+	border: 1px solid #0CB2A3 !important;
+}
+.NISTA-label{
+	min-width: 100px !important;
+	width: 100px !important;
+	max-width: 100px !important;
+	background-color: #0CB2A3 !important;
+	color: #FFFFFF !important;
+	border: 1px solid #0CB2A3 !important;
+	border-radius: 0px !important;
+}
+.create-record-label{
+	min-width: 140px !important;
+	width: 140px !important;
+	max-width: 140px !important;
+
+	background-color: #0CB2A3 !important;
+	color: #FFFFFF !important;
+	border: 1px solid #0CB2A3 !important;
+	border-radius: 0px !important;
+}
+.physician-patient-list-label{
+	min-width: 70px !important;
+	width: 70px !important;
+	max-width: 70px !important;
+
+	background-color: #0CB2A3 !important;
+	color: #FFFFFF !important;
+	border: 1px solid #0CB2A3 !important;
+	border-radius: 0px !important;
+
+	font-size: 11px !important;
+}
+
+.radius-sharp{
+	border-radius: 0px !important;
+}

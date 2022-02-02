@@ -1,0 +1,332 @@
+/*
+
+	main.css
+
+*/
+html{
+	width:100%;
+	height:100%;
+}
+body{
+	width:100%;
+	height:100%;
+}
+/* Utility Class Declarations */
+.pointer{cursor: pointer;}
+.italic{font-style: italic;}
+.underline{ text-decoration: underline; }
+.nounderline{ text-decoration: none; }
+.center{ margin:0 auto; }
+.text-center{ text-align: center; }
+.text-left{ text-align: left; }
+.text-right{ text-align: right; }
+.display-none{ display: none; }
+.display-block{ display: block; }
+.display-inline{ display: inline; }
+.position-fixed{ position: fixed; }
+.position-relative{ position: relative; }
+.position-absolute{ position: absolute; }
+.overflow-hidden{overflow:hidden;}
+.scroll-x{overflow-x: scroll;}
+.scroll-y{overflow-y: scroll;}
+.scroll-x-auto{overflow-x: auto;}
+.scroll-y-auto{overflow-y: auto;}
+.red-text{color: red !important;}
+.white-text{color: white !important;}
+.black-text{color: black !important;}
+.blue-text{color: blue !important;}
+.width100{width:100%;}
+.width90{width:90%;}
+.width80{width:80%;}
+.width75{width:75%;}
+.width70{width:70%;}
+.width66{width:66%;}
+.width60{width:60%;}
+.width50{width:50%;}
+.width40{width:40%;}
+.width33{width:33%;}
+.width30{width:30%;}
+.width25{width:25%;}
+.width20{width:20%;}
+.width10{width:10%;}
+.width5{width:5%;}
+
+
+/* Root React Element */
+#root{
+	width:100%;
+	height:100%;	
+}
+/* App component */
+.app-container{
+	width:100%;
+	height:100%;
+}
+/* 
+
+	Page Styles 
+
+*/
+#page-view{
+	background-color: #EBF5F3 !important;
+	width: 100%;
+	height: 100%;
+	position:fixed;
+}
+.menu-column{
+	position: fixed;
+	width: 20%;
+	min-width: 130px;
+	height: 100%;
+	padding: 10px;
+	padding-right: 5px;
+}
+
+#menu-insert{
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+.view-column{
+	position: fixed;
+	right: 0px;
+	width: 80%;
+	height: 100%;
+	padding: 10px;
+	padding-left: 5px;
+}
+
+.view-top-container{
+	width: 100%;
+
+}
+.view-body-container{
+	position: fixed;
+	top: 103px;
+	right: 0px;
+	bottom: 10px;
+	width: 80%;
+
+	padding-left: 5px;
+	padding-right: 10px;
+}
+
+
+
+/* Administrator Menu Styles */
+.menu-component{
+	background-color: #FFFFFF;
+	border: none;
+	border-radius: 5px;
+	padding: 0px;
+	width:100%;
+	height:100%;
+	
+}
+.menu-logo-container{
+	padding-top: 30px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom:15px;
+}
+.menu-logo{
+	width:100%;
+
+}
+.menu-item{
+	width:100%;
+	color: #999999;
+}
+.menu-item-active{
+	background-color: #e7fdfb !important;
+	font-weight: bolder;
+	color: #000000;
+}
+.menu-icon{
+	display: inline-block;
+
+	width: 30px;
+	padding-top: 10px;
+	padding-left: 30px;
+	padding-bottom: 10px;
+}
+.menu-icon-active{
+	color: #0CB2A3;
+}
+.menu-icon-name{
+	display: inline-block;
+	padding-top: 10px;
+	padding-left: 30px;
+	padding-bottom: 10px;
+}
+.menu-hide{
+	width: 100%;
+	padding-left: 30px;
+	padding-right: 30px;
+	position: absolute;
+	bottom:20px;
+}
+#hide-menu-icon{
+	display: inline-block;
+
+	width: 30px;
+	padding-top: 5px;
+}
+#hide-menu-icon-name{
+	display: inline-block;
+	padding-top: 5px;
+}
+
+
+
+/* Page Top Bar */
+.top{
+	position: relative;
+	padding: 25px;
+	border: none;
+	border-radius: 5px;
+
+	color: #999999;
+	font-size: 20px;
+	font-weight: bold;
+
+	min-height: 83px;
+
+	background-color: #FFFFFF;
+	margin-bottom: 10px;
+}
+#top-controls{
+	position: absolute;
+	right: 0px;
+	padding-right: 25px;
+	font-size: 16px;
+}
+.top-controls-search,
+.top-controls-search:focus{
+	border: none !important;
+	border-bottom: 3px solid #CCCCCC !important;
+	background-color: white;
+	outline: none;
+
+}
+.top-controls-search::placeholder{
+	font-style: italic;
+	font-size: 16px;
+}
+.top-button{
+	display: inline-block;
+
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+
+/* Page Body container */
+#body-insert{
+	position: relative;
+
+	width: 100%;
+	height: 100%;
+
+}
+#body{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+
+	border: none;
+	border-radius: 5px;
+	
+	font-size: 15px;
+
+	/*
+	color: #999999;
+	font-weight: bold;
+	*/
+
+	padding:20px;
+	background-color: #FFFFFF;
+}
+
+
+
+
+/* Page Menu Collapsed (small) styles */
+.menu-col-sm{
+	position: fixed;
+	width: 93px;
+	min-width: 93px;
+	max-width: 93px;
+	height: 100%;
+	padding: 10px;
+	padding-right: 5px;
+}
+.view-col-sm{
+	position: fixed;
+	left: 93px;
+	right: 0px;
+	height: 100%;
+	padding: 10px;
+	padding-left: 5px;
+}
+.top-sm{
+	position: relative;
+	padding: 25px;
+	border: none;
+	border-radius: 5px;
+
+	color: #999999;
+	font-size: 20px;
+	font-weight: bold;
+
+	min-height: 83px;
+
+	background-color: #FFFFFF;
+	margin-bottom: 10px;
+}
+.view-top-small{
+	width: 100%;
+}
+.view-body-small{
+	position: fixed;
+	top: 103px;
+	left: 93px;
+	right: 0px;
+	bottom: 10px;
+	
+
+	padding-left: 5px;
+	padding-right: 10px;
+}
+.menu-logo-sm{
+	padding-top: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 15px;
+
+	height: 210px;
+	max-height:210px !important;
+}
+
+
+
+
+/*
+
+	Physician Body styles
+
+*/
+.patient-list-pid,
+.patient-list-date,
+.patient-list-status{
+	font-size: 13px;
+	font-weight: bold;
+	color: #232323;
+}
+
+.patient-list-row:hover{
+	background-color: #e7fdfb !important;
+	cursor: pointer;
+}

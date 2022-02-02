@@ -1,0 +1,38 @@
+{
+  "short_name": "BCDA",
+  "name": "Breast Cancer Diffraction Analysis App",
+  "description": "Manage breast cancer diffraction data for a large pool of patients, safely and securely",
+  "icons": [
+    /*
+    {
+      "src": "/images/icons-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/images/icons-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+    */
+  ],
+  "start_url": "/",
+  "background_color": "#333333",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#333333",
+  "shortcuts": [
+    /*
+    {
+      "name": "Breast Cancer Diffraction Analysis App",
+      "short_name": "BCDA",
+      "description": "",
+      "url": "/",
+      "icons": [{ "src": "/images/some_image.png", "sizes": "192x192" }]
+    },
+
+    etc...
+
+    */
+  ]
+}

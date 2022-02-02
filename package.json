@@ -1,0 +1,69 @@
+{
+  "name": "nista",
+  "version": "0.0.1",
+  "description": "Nista breast cancer diffraction analysis application",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode development && node server.js",
+    "fstart": "forever start -a -m 10 -l log.txt -o output.txt -e error.txt server.js",
+    "fstop": "forever stopall"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/hemlock/nista.git"
+  },
+  "author": "Jesse Palmquist",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/hemlock/nista/issues"
+  },
+  "homepage": "https://gitlab.com/hemlock/nista#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.30",
+    "@fortawesome/free-brands-svg-icons": "^5.14.0",
+    "@fortawesome/free-regular-svg-icons": "^5.14.0",
+    "@fortawesome/free-solid-svg-icons": "^5.14.0",
+    "@fortawesome/react-fontawesome": "^0.1.11",
+    "apexcharts": "^3.20.2",
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "bootstrap": "^4.5.0",
+    "classnames": "^2.2.6",
+    "connect-mongodb-session": "^2.3.3",
+    "d3": "^6.1.1",
+    "express-session": "^1.17.1",
+    "express-useragent": "^1.0.15",
+    "express.js": "^1.0.0",
+    "geoip-lite": "^1.4.2",
+    "helmet": "^3.23.3",
+    "jquery": "^3.5.1",
+    "moment": "^2.27.0",
+    "mongodb": "^3.6.2",
+    "mongojs": "^3.1.0",
+    "multer": "^1.4.2",
+    "prompt-sync": "^4.2.0",
+    "react": "^16.13.1",
+    "react-apexcharts": "^1.3.7",
+    "react-dom": "^16.13.1",
+    "react-redux": "^7.2.0",
+    "react-router-dom": "^5.2.0",
+    "reactstrap": "^8.5.1",
+    "redux": "^4.0.5",
+    "redux-observable": "^1.2.0",
+    "rxjs": "^6.6.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "@babel/preset-react": "^7.10.4",
+    "babel": "^6.23.0",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^3.6.0",
+    "react-dom": "^16.13.1",
+    "source-map-loader": "^1.0.1",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12"
+  }
+}

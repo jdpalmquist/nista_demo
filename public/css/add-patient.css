@@ -1,0 +1,84 @@
+/*
+
+	Add-Patient styles
+
+*/
+
+.add-patient-container{
+	height: 100%;
+	width: 100%;
+	background-color: #FFFFFF;
+}
+
+#addPatientTopText:hover{
+	color: #0CB2A3;
+}
+
+.add-patient-demographics{
+	border-bottom: 1px solid #CCCCCC;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+.add-patient-demographics-table {
+    border: none;
+    border-collapse: collapse;
+}
+
+.add-patient-demographics-table > td{
+    border: none;
+}
+
+
+
+.add-patient-meddata{
+	border-bottom: 1px solid #CCCCCC;
+	padding-top:10px;
+	padding-bottom: 20px;
+}
+.add-patient-meddata-table{
+	border: none;
+	border-collapse: collapse;
+}
+.add-patient-meddata-table > td{
+	border: none;
+}
+
+
+.add-patient-label{
+	margin-top: 10px;
+	margin-bottom: 0px;
+
+	font-size: 12px;
+}
+
+.add-patient-patientID,
+.add-patient-patientID:focus,
+.add-patient-patientID:active{
+	border-radius: 0px !important;
+	box-shadow: none !important;
+	outline:none !important;
+	margin-bottom: 10px;
+}
+
+.add-patient-input,
+.add-patient-input:focus,
+.add-patient-input:active{
+	margin-bottom:10px;
+	border: none !important;
+	border-bottom: 2px solid #CCCCCC !important;
+	border-radius: 0px !important;
+	box-shadow: none !important;
+	outline:none !important;
+
+	color: #000000;
+	font-size: 14px;
+	font-weight: bolder;
+}
+
+
+.add-patient-controls{
+	padding: 25px;
+}
+.add-patient-button{
+	width: 80px !important;
+}

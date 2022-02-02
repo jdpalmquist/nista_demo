@@ -1,0 +1,72 @@
+/*
+
+	Login Page Styles
+
+*/
+.login-page{
+	width:100%;
+	height:100%;
+	color: #FFFFFF;
+	background-color: #0CB2A3 !important;
+}
+.login-component{
+	width:100%;
+	height:100%;
+	background-color: #0CB2A3 !important;
+}
+.login-top-spacer{
+	margin-top:13%;
+}
+.login-logo{
+	width: 100%;
+
+	margin-bottom:25px;
+}
+.login-inputs{
+	margin-left:7px;
+}
+.login-label{
+	font-size: 10px;
+	font-weight: bold;
+}
+.login-input{
+	width:100%;
+	height:30px;
+	color: #FFFFFF;
+	font-size: 14px;
+	background-color: #0CB2A3;
+	border:none;
+	border-bottom: 2px solid #11eedc;
+	outline: none;
+}
+.login-input:focus{
+	outline:none;
+}
+.login-input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #FFFFFF;
+  opacity: 1; /* Firefox */
+}
+.login-button{
+	width:100%;
+	color: #0CB2A3;
+	font-weight: bold;
+	font-size: 14px;
+	background-color: #FFFFFF;
+	border:none;
+	border-radius: 7px;
+	margin-top:20px;
+	margin-bottom:20px;
+	padding:10px;
+}
+.login-footer{
+	position: fixed;
+	width: 100%;
+	bottom: 0px;
+	text-align: center;
+	font-size: 13px;
+
+	padding-top:20px;
+	padding-bottom:20px;
+	background-color: #0CB2A3 !important;
+
+}
